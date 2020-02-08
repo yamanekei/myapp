@@ -1,13 +1,7 @@
 @import "compass";
 
-/*
- * "ほのか明朝" licensed under the IPA Font License Agreement v1.0
- * http://fontfree.me/966（配布元のURL）
- * http://ipafont.ipa.go.jp/（IPAフォントのURL）
- * http://ipafont.ipa.go.jp/ipa_font_license_v1.html（IPAフォントライセンスv1.0のURL）
- */
 @font-face {
-    font-family: 'ほのか明朝';
+    font-family: 'Comic Sans MS';
     src: url('font_1_honokamin.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
@@ -15,16 +9,13 @@
 
 @import url(http://fonts.googleapis.com/css?family=Unica+One);
 
-$accent: #57C3E9;
+$accent: rgb(228, 67, 145);
 $black: #292929;
 $dark: #666;
-$darkGray: #999999;
+$darkGray: #393333;
 $gray: #D8D8D8;
 $lightGray: #f5f5f3;
 $white: white;
-
-
-//mixin
 
 @mixin boxBase($margin: 30px auto, $padding: 10px) {
   margin: $margin;
@@ -40,6 +31,8 @@ $white: white;
 body,html {
   height: 100%;
   background-color: $lightGray;
+  background-image: url("/images/backgroundimage.jpg");
+  background-size: cover;
 }
 
 body {
@@ -51,7 +44,7 @@ line-height: 1.57;
   letter-spacing: 0.15em;
   font-size: 16px;
   color: $dark;
-  font-family: 'Unica One', "Avenir", "游ゴシック", "YuGothic", "ヒラギノ角ゴ Pro W6", "HIragino Kaku Gothic Pro W6", "HIragino Kaku Gothic Pro", Osaka, Meiryo, "メイリオ", "ＭＳ Ｐゴシック", "MS P Gothic", sans-serif;
+  font-family: 'Comic Sans MS';
   margin: 0;
 }
 
@@ -69,7 +62,7 @@ a {
 }
 
 .serif {
-  font-family: 'ほのか明朝',serif;
+  font-family: 'Comic Sans MS',serif;
 }
 
 .ultra {
@@ -93,7 +86,7 @@ a {
     color: $accent;
     font-weight: bold;
     text-align: center;
-    border-radius: 3px;
+    border-radius: 20px;
     display: inline-block;
   &:hover {
     border-color: lighten($accent, 15%);
@@ -106,6 +99,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .title {
   font-weight: bold;
+  font-family: 'Comic Sans MS';
 }
 
 .title--big {
@@ -120,8 +114,9 @@ h1,h2,h3,h4,h5,h6 {
 
 header.header {
   @include basePadding;
+  opacity: 0.9;
   border-bottom: 1px solid $gray;
-  background-color: #fff;
+  background-color:rgb(75, 208, 177);
   position: fixed;
   top: 0;
   left: 0;
@@ -180,7 +175,7 @@ header.header {
       right: 0;
       border-left: 1px solid #d8d8d8;
       border-right: 1px solid #d8d8d8;
-      box-shadow: 1px 2px 5px rgba(0,0,0,0.1);
+      box-shadow: 1px 2px 5px plum;
       li {
         background-color: #f0f0f0;
         a {
@@ -372,7 +367,7 @@ form {
 
 footer {
   @include boxBase;
-  color: $gray;
+  color: black;
   p {
     text-align: center;
   }
