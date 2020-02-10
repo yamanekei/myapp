@@ -1,14 +1,13 @@
 .contents.row
   .contents.row.box
-    .content_post
-      .content_post_image1
-        = image_tag @tweet.image1, size: "600x600"
-      .content_post_image2
-        = image_tag @tweet.image2, size: "600x600"
-      .content_post_image3
-        = image_tag @tweet.image3, size: "600x600"
-      .content_post_image4
-        = image_tag @tweet.image4, size: "600x600"
+    .content_post_image1
+      = image_tag @tweet.image1, size: "600x600"
+    .content_post_image2
+      = image_tag @tweet.image2, size: "600x600"
+    .content_post_image3
+      = image_tag @tweet.image3, size: "600x600"
+    .content_post_image4
+      = image_tag @tweet.image4, size: "600x600"
 
       -# - if user_signed_in? && current_user.id == @tweet.user_id
       -#   .more
