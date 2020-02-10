@@ -1,0 +1,60 @@
+.content_post
+  .content_post_text
+    .content_post_text_profile
+      .content_post_text_profile_name
+        .content_post_text_profile_name_de
+          name:
+        .content_post_text_profile_name_name
+          = tweet.user.name
+      .content_post_text_profile_text
+        .content_post_text_profile_text_de
+          text:
+        .content_post_text_profile_text_text
+          = tweet.text
+    .content_post_text_message
+      .content_post_text_message_de
+        comment
+      .content_post_text_message_message
+        - tweet.comments.each do |comment|
+          .content_post_text_message_message_box
+            .content_post_text_message_message_box_name
+              .content_post_text_message_message_box_name_de
+                name:
+              .content_post_text_message_message_box_name_name
+                = comment.user.name
+            .content_post_text_message_message_box_message
+              = comment.text
+    .content_post_text_form
+      -# = link_to "詳細＆コメント", "/tweet/#{tweet.id}", method: :get
+      -# = link_to "Go", tweet_path(tweet)
+      %a(href = '/tweet/#{tweet.id}')Go
+        
+
+
+
+
+  .content_post_image
+    .content_post_image_1
+      = image_tag tweet.image1, size: "500x500"
+    .content_post_image_2
+      = image_tag tweet.image2, size: "500x500"
+    .content_post_image_3
+      = image_tag tweet.image3, size: "500x500"
+    .content_post_image_4
+      = image_tag tweet.image4, size: "500x500"
+
+  -# .more
+  -#   %span= image_tag 'arrow_top.png'
+  -#   %ul.more_list
+  -#     %li
+  -#       = link_to '詳細', "/tweets/#{tweet.id}", method: :get
+  -#     - if user_signed_in? && current_user.id == tweet.user_id
+  -#       %li
+  -#         = link_to '編集', "/tweets/#{tweet.id}/edit", method: :get
+  -#       %li
+  -#         = link_to '削除', "/tweets/#{tweet.id}", method: :delete
+  -# = simple_format(tweet.text)
+  -# %span.name
+  -#   %a{:href => "/users/#{tweet.user.id}"}
+  -#     %span 投稿者
+  -#     = tweet.user.name
