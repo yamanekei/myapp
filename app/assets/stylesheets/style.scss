@@ -189,8 +189,10 @@ header.header {
   }
 }
 .form {
+  width: 600px;
   background: url(https://dl.dropboxusercontent.com/u/5840617/DeathtoStock_Wired3.jpg);
   background-size: cover;
+  border-radius: 20px;
   .contents {
     position: absolute;
     left: 0;
@@ -222,6 +224,8 @@ div.contents.row {
     display: flex;
     overflow-x: auto;
     white-space: nowrap;
+    width: 1200px;
+    margin: 0 auto;
 
 
     div.content_post {
@@ -234,7 +238,7 @@ div.contents.row {
       border-radius: 20px;
       box-shadow: 0 0 10px rgba($black,0.2);
       min-width: 600px;
-      margin-left: 40px;
+      margin-left: 50px;
       &:after {
         content: '';
         position: absolute;
@@ -364,6 +368,8 @@ form {
   box-sizing: border-box;
 }
 .comments {
+  border-radius: 30px;
+  max-width: 660px;
   padding: 5px;
   margin-top: 15px;
   a {
