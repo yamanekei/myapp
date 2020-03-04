@@ -12,7 +12,7 @@
 
 
 ## :投稿画面
-![yoncoman](https://user-images.githubusercontent.com/59871181/75840075-c7545500-5e0d-11ea-8c40-03257db30046.jpg) 
+![yoncoman](https://user-images.githubusercontent.com/59871181/75843915-e2c45d80-5e17-11ea-917e-9d2866ef238e.jpg) 
 
 ## :詳細＆コメント画面
 ![yoncoman](https://user-images.githubusercontent.com/59871181/75840075-c7545500-5e0d-11ea-8c40-03257db30046.jpg) 
