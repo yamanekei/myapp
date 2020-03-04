@@ -6,29 +6,17 @@
 `$ git clone https://github.com/yamanekei/myapp.git`  
 ## :トップ画面
  ![yoncoman](https://user-images.githubusercontent.com/59871181/75840075-c7545500-5e0d-11ea-8c40-03257db30046.jpg) 
-</p>　
 
 ## :ユーザー登録画面
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/59871181/75840075-c7545500-5e0d-11ea-8c40-03257db30046.jpg
-" width=70%>  
-</p>　
+![yoncoman](https://user-images.githubusercontent.com/59871181/75840075-c7545500-5e0d-11ea-8c40-03257db30046.jpg) 
+
 
 ## :投稿画面
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/59871181/75840075-c7545500-5e0d-11ea-8c40-03257db30046.jpg
-" width=70%>  
-</p>　
-
+![yoncoman](https://user-images.githubusercontent.com/59871181/75840075-c7545500-5e0d-11ea-8c40-03257db30046.jpg) 
 
 ## :詳細＆コメント画面
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/59871181/75840075-c7545500-5e0d-11ea-8c40-03257db30046.jpg
-" width=70%>  
-</p>　
+![yoncoman](https://user-images.githubusercontent.com/59871181/75840075-c7545500-5e0d-11ea-8c40-03257db30046.jpg) 
 
 ## :コメント投稿後画面
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/59871181/75840075-c7545500-5e0d-11ea-8c40-03257db30046.jpg
-" width=70%>  
-</p>　
+![yoncoman](https://user-images.githubusercontent.com/59871181/75840075-c7545500-5e0d-11ea-8c40-03257db30046.jpg) 
+
