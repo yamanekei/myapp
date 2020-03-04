@@ -18,5 +18,5 @@
 ![yoncoman](https://user-images.githubusercontent.com/59871181/75843984-0f787500-5e18-11ea-9b9e-6dd0e1fe7ce1.jpg) 
 
 ## :コメント投稿後画面
-![yoncoman](https://user-images.githubusercontent.com/59871181/75840075-c7545500-5e0d-11ea-8c40-03257db30046.jpg) 
+![yoncoman](https://user-images.githubusercontent.com/59871181/75844036-36cf4200-5e18-11ea-87ed-d4b6eb10dfcf.jpg) 
 
