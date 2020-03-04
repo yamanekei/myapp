@@ -8,7 +8,7 @@
  ![yoncoman](https://user-images.githubusercontent.com/59871181/75840075-c7545500-5e0d-11ea-8c40-03257db30046.jpg) 
 
 ## :ユーザー登録画面
-![yoncoman](https://user-images.githubusercontent.com/59871181/75840075-c7545500-5e0d-11ea-8c40-03257db30046.jpg) 
+![yoncoman](https://user-images.githubusercontent.com/59871181/75843875-bd375400-5e17-11ea-8224-b5965b70bf7a.jpg) 
 
 
 ## :投稿画面
