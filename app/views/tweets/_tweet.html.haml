@@ -25,36 +25,18 @@
             .content_post_text_message_message_box_message
               = comment.text
     .content_post_text_form
-      -# = link_to "詳細＆コメント", "/tweet/#{tweet.id}", method: :get
-      = link_to "詳細＆コメント", tweet_path(tweet)
-      -# %a(href = '/tweet/#{tweet.id}')詳細＆コメント
-        
-
-
-
+      .content_post_text_form_edit
+        = link_to "詳細＆コメント", tweet_path(tweet)
+      - if user_signed_in? && current_user.id == tweet.user_id
+        .content_post_text_form_delete
+          = link_to '削除', "/tweets/#{tweet.id}", method: :delete
 
   .content_post_image
     .content_post_image_1
-      = image_tag tweet.image1, size: "500x500"
+      = image_tag tweet.image1, size: "200x125"
     .content_post_image_2
-      = image_tag tweet.image2, size: "500x500"
+      = image_tag tweet.image2, size: "200x125"
     .content_post_image_3
-      = image_tag tweet.image3, size: "500x500"
+      = image_tag tweet.image3, size: "200x125"
     .content_post_image_4
-      = image_tag tweet.image4, size: "500x500"
-
-  -# .more
-  -#   %span= image_tag 'arrow_top.png'
-  -#   %ul.more_list
-  -#     %li
-  -#       = link_to '詳細', "/tweets/#{tweet.id}", method: :get
-  -#     - if user_signed_in? && current_user.id == tweet.user_id
-  -#       %li
-  -#         = link_to '編集', "/tweets/#{tweet.id}/edit", method: :get
-  -#       %li
-  -#         = link_to '削除', "/tweets/#{tweet.id}", method: :delete
-  -# = simple_format(tweet.text)
-  -# %span.name
-  -#   %a{:href => "/users/#{tweet.user.id}"}
-  -#     %span 投稿者
-  -#     = tweet.user.name
+      = image_tag tweet.image4, size: "200x125"
